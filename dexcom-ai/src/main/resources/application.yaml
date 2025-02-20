@@ -1,0 +1,30 @@
+spring:
+ application:
+  name: dexcom-ai
+ profiles:
+  active: local
+#logging:
+# level:
+#  root: debug
+#  com:
+#   spinach:
+#    dexcom:
+#     ai:
+#      services: debug
+#   org.springframework.cache: DEBUG
+resilience4j:
+ retry:
+  instances:
+   llmService:
+    max-attempts: 3
+    wait-duration: 500ms
+management:
+ endpoints:
+  web:
+   exposure:
+    include: health,info
+ endpoint:
+  health:
+   show-details: always
+server:
+ port: 8080

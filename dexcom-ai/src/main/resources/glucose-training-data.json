@@ -1,0 +1,69 @@
+{
+  "glucose_data": [
+    {
+      "timestamp": "2025-02-16T23:00:00Z",
+      "glucose_level": 152,
+      "meal_intake": 66,
+      "exercise_intensity": "Intense",
+      "medication": 10,
+      "sleep_quality": "Poor",
+      "user_baseline": {
+        "age": 35,
+        "weight": 96,
+        "diabetes_type": "Type 1"
+      }
+    },
+    {
+      "timestamp": "2025-02-17T00:00:00Z",
+      "glucose_level": 173,
+      "meal_intake": 47,
+      "exercise_intensity": "Intense",
+      "medication": 1,
+      "sleep_quality": "Poor",
+      "user_baseline": {
+        "age": 41,
+        "weight": 87,
+        "diabetes_type": "Type 2"
+      }
+    },
+    {
+      "timestamp": "2025-02-12T23:00:00Z",
+      "glucose_level": 152,
+      "meal_intake": 82,
+      "exercise_intensity": "Intense",
+      "medication": 7,
+      "sleep_quality": "Average",
+      "user_baseline": {
+        "age": 31,
+        "weight": 87,
+        "diabetes_type": "Type 1"
+      }
+    },
+    {
+      "timestamp": "2025-02-16T23:00:00Z",
+      "glucose_level": 107,
+      "meal_intake": 98,
+      "exercise_intensity": "Moderate",
+      "medication": 1,
+      "sleep_quality": "Good",
+      "user_baseline": {
+        "age": 31,
+        "weight": 80,
+        "diabetes_type": "Type 1"
+      }
+    },
+    {
+      "timestamp": "2025-02-14T20:00:00Z",
+      "glucose_level": 171,
+      "meal_intake": 97,
+      "exercise_intensity": "Moderate",
+      "medication": 4,
+      "sleep_quality": "Poor",
+      "user_baseline": {
+        "age": 30,
+        "weight": 96,
+        "diabetes_type": "Type 2"
+      }
+    }
+  ]
+}
