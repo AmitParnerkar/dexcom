@@ -3,6 +3,18 @@ spring:
   name: dexcom-ai
  profiles:
   active: local
+ mail:
+  host: smtp.gmail.com
+  port: 587
+  username: ${MAIL_HOST_USER}
+  password: ${MAIL_HOST_PASSWD}
+  properties:
+   mail:
+    smtp:
+     auth: true
+     starttls:
+      enable: true
+
 #logging:
 # level:
 #  root: debug

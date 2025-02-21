@@ -46,6 +46,11 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-cache")
     implementation("com.hazelcast:hazelcast-spring:5.3.1")
 
+    // Email support
+    implementation("org.springframework.boot:spring-boot-starter-mail")
+
+    // Load .env file
+    implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
 }
 
 dependencyManagement {
